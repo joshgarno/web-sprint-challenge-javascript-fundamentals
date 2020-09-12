@@ -26,15 +26,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
-A. 1. '.forEach' is like a for loop exept it runs on all of the elements without more code. 2. '.map' returns a new array when finished.
+A. 1. '.forEach' is like a for loop exept it runs on all of the elements without more code. 2. '.map' returns a new array with the same amount of elements as the original array by default when finished.
 
 2. Explain the difference between a callback and a higher order function.
 
+A. 2. A callback is invoking a function with a function and the function invoked calls the invoking function. 2. A higher order function uses the arguments of another function and returns an additional function.
+
 3. What is closure?
+
+A. Creates an instance of a function with name and attributes gathered from the lexical scope it's passed into.
 
 4. Describe the four rules of the 'this' keyword.
 
+A. ---- 1. If 'this' is used in a global scope then it refers to the window object, but doesn't work in strict mode. ---- 2. Explicitely binds if using '.apply', '.bind', or '.call' ---- 3. If used in a '.' call it refers to the element directly befor the '.'. ---- 4. If being called by a function invocation it refers to the function doing the invoking.
+
 5. Why do we need super() in an extended class?
+
+A. Calling the parent class constructor in stead of the local lexicon.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -42,12 +50,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
