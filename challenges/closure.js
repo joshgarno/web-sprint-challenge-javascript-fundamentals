@@ -21,12 +21,14 @@ myFunction();
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
-function summation(num1){
-  let sum1 = [];
-  sum1.length = num1;
-  sum1.forEach(attr => {
-    sum2 = sum1 = 
-  });
+function summation(num1) {
+  let sum1 = 0;
+  for (i = 0; i <= num1; i++) {
+    sum1 = sum1 + i;
+  }
+  return sum1;
 }
 
-console.log(summation(4));
+const sum2 = summation(4);
+
+console.log(sum2);
