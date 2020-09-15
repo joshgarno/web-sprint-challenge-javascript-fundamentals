@@ -24,7 +24,7 @@ CuboidMaker.prototype.volume = function () {
 
 const cuboid1 = new CuboidMaker(2, 4, 8);
 
-console.log(`cuboid1 has a volume of ${cuboid1.volume()}`);
+//console.log(`cuboid1 has a volume of ${cuboid1.volume()}`);
 
 /* == Step 3: Surface Area Method ==
   Create another method using CuboidMaker's prototype that returns the surface area of a given cuboid's length, width, and height. 
@@ -41,7 +41,7 @@ CuboidMaker.prototype.surfaceArea = function () {
   );
 };
 
-console.log(`cuboid1 has a surface area of ${cuboid1.surfaceArea()}`);
+//console.log(`cuboid1 has a surface area of ${cuboid1.surfaceArea()}`);
 
 //console.log(`cube1 had a surface area of ${cube1.surfaceArea()}`);
 
@@ -53,5 +53,5 @@ console.log(`cuboid1 has a surface area of ${cuboid1.surfaceArea()}`);
 const cuboid2 = new CuboidMaker(4, 5, 5);
 
 //Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(cuboid2.volume()); // 100
-console.log(cuboid2.surfaceArea()); // 130
+//console.log(cuboid2.volume()); // 100
+//console.log(cuboid2.surfaceArea()); // 130

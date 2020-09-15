@@ -77,7 +77,7 @@ zooAnimals.forEach(function (item) {
   return displayNames.push(`${item.animal_name}, ${item.scientific_name}`);
 });
 
-console.log(displayNames);
+//console.log(displayNames);
 
 /* Request 2: .map()
 
@@ -89,7 +89,7 @@ const lowCaseAnimals = zooAnimals.map(function (item) {
   return item.animal_name.toLowerCase();
 });
 
-console.log(lowCaseAnimals);
+//console.log(lowCaseAnimals);
 
 /* Request 3: .filter() 
 
@@ -107,7 +107,9 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 
-let populationTotal = 0;
+const populationTotal = zooAnimals.reduce(function (accumulator, item) {
+  return accumulator + item.population;
+}, 0);
 
 //console.log(populationTotal);
 
