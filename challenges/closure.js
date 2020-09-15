@@ -29,6 +29,4 @@ function summation(num1) {
   return sum1;
 }
 
-const sum2 = summation(4);
-
-console.log(sum2);
+console.log(summation(4));
